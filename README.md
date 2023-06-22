@@ -6,3 +6,6 @@
 To run a local server of docs, go to docs/build and run "jserve". It's an alias to run a julia package.
 
 To build the docs, go into Polyagon/docs and run
+```
+julia make.jl
+```
