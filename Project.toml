@@ -5,7 +5,13 @@ version = "0.1.0"
 
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-# Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+
+[compat]
+DataFrames = "1.5"
+KrylovKit = "0.6"
+Makie = "0.19"
 
 [extras]
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
